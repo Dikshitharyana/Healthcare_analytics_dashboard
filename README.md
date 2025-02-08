@@ -88,6 +88,9 @@ sns.boxplot(x='bmi', data=df)
 plt.title('BMI distribution')
 plt.show()
 ```
+### Box Plot
+![Box Plot](https://github.com/Dikshitharyana/Healthcare_analytics_dashboard/blob/main/box_plot.png?raw=true)
+
 
 - **Correlation Heatmap**:
 ```python
@@ -99,6 +102,8 @@ sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f', linewidt
 plt.title('Correlation Heatmap', fontsize=16)
 plt.show()
 ```
+### Correlation Heatmap
+![Correlation Heatmap](https://github.com/Dikshitharyana/Healthcare_analytics_dashboard/blob/main/correlation_plot.png?raw=true)
 
 ### 4. Machine Learning Model: Predicting Diabetes
 A Random Forest Classifier is used to predict diabetes based on health data. The model is trained on a subset of data and evaluated using accuracy.
