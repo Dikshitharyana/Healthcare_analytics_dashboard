@@ -79,6 +79,8 @@ sns.histplot(df['age'], kde=True)
 plt.title('Age distribution')
 plt.show()
 ```
+### Bar Plot
+![Bar Plot](https://github.com/Dikshitharyana/Healthcare_analytics_dashboard/blob/main/bar_plot.png?raw=true)
 
 - **BMI Distribution**:
 ```python
